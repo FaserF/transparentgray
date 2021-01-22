@@ -16,12 +16,14 @@ As I am using this for my personal interest. Be aware, that I will only be givin
 **transparentgray-other.yaml**<br />
 <img src="images/transparentgray2.png" alt="transparentgray-other.yaml" width="1000">
 
-## Themes
-All Themes are very similar. The main difference is the color for the buttons. 
-### transparentgray.yaml (DEFAULT)
-- Blue and Red buttons
+## Button Colors
 ### transparentgray-other.yaml
-- Gray and Blue buttons
+If you prefer the Gray and Blue buttons (second screenshots), change the code as below:<br /> 
+  #Switches<br /> 
+  switch-checked-button-color: ''                                           #Switch On<br /> 
+  switch-unchecked-button-color: 'var(--slightly-darker-text)'              #Switch Off<br /> 
+  switch-checked-track-color: '#009FFF'                                     #Switch background when On<br /> 
+  switch-unchecked-track-color: '#767682'                                   #Switch background when Off<br /> <br /> 
 
 ## HACS installation - recommended<br /> 
 Works only for transparentgray.yaml<br /> 
