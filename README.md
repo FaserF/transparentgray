@@ -5,15 +5,26 @@
 Thanks to: https://github.com/JOHLC/transparentblue for his dark blue theme, where this theme is based on.
 
 ## General information
-I am using [this](https://github.com/Villhellm/lovelace-animated-background) with animated backgrounds. Thats the reason that I have removed a background from this theme. <br /> 
+I am using the frontend extion [animated backgrounds](https://github.com/Villhellm/lovelace-animated-background). Thats the reason that I have removed a background from this theme. <br /> 
 If you want one, please have a look below under Changing the background image. Maybe I will release a darkgray version with a background implemented.
 As I am using this for my personal interest. Be aware, that I will only be giving limited support and wont accept all pull requests.
 
 ### Screenshots
-**Main**<br />
-<img src="images/screenshot.png" alt="Screenshot 1" width="1000">
+**transparentgray1.yaml**<br />
+<img src="images/transparentgray1.png" alt="transparentgray1.yaml" width="1000">
+
+**transparentgray2.yaml**<br />
+<img src="images/transparentgray2.png" alt="transparentgray2.yaml" width="1000">
+
+## Themes
+All Themes are very similar. The main difference is the color for the buttons. 
+### transparentgray1.yaml (DEFAULT)
+- Blue and Red buttons
+### transparentgray2.yaml
+- Gray and Blue buttons
 
 ## HACS installation - recommended<br /> 
+Works only for transparentgray1.yaml<br /> 
 1. Open HACS
 2. Click the tree dots in the upper right
 3. Click custom repositories
@@ -25,9 +36,9 @@ You should now be able to select "transparentgray-LAB" in Home Assistant. Maybe 
 "LAB" stands for "Lovelace Animated Background".
 
 ### Manual Installation - not recommended<br /> 
-1. Download the transparentgray*.yaml file from this github repo.
+1. Download the transparentgray*.yaml file from this github repo. - Only one, not all!
 2. Upload the downloaded file to your "themes" directory
-3. Add the resource reference to your lovelace config
+3. Add the resource reference to your lovelace config<br /> 
 
 You should now be able to select this theme in Home Assistant
 <br />
