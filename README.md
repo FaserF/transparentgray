@@ -10,21 +10,21 @@ If you want one, please have a look below under Changing the background image. M
 As I am using this for my personal interest. Be aware, that I will only be giving limited support and wont accept all pull requests.
 
 ### Screenshots
-**transparentgray1.yaml**<br />
-<img src="images/transparentgray1.png" alt="transparentgray1.yaml" width="1000">
+**transparentgray.yaml**<br />
+<img src="images/transparentgray1.png" alt="transparentgray.yaml" width="1000">
 
-**transparentgray2.yaml**<br />
-<img src="images/transparentgray2.png" alt="transparentgray2.yaml" width="1000">
+**transparentgray-other.yaml**<br />
+<img src="images/transparentgray2.png" alt="transparentgray-other.yaml" width="1000">
 
 ## Themes
 All Themes are very similar. The main difference is the color for the buttons. 
-### transparentgray1.yaml (DEFAULT)
+### transparentgray.yaml (DEFAULT)
 - Blue and Red buttons
-### transparentgray2.yaml
+### transparentgray-other.yaml
 - Gray and Blue buttons
 
 ## HACS installation - recommended<br /> 
-Works only for transparentgray1.yaml<br /> 
+Works only for transparentgray.yaml<br /> 
 1. Open HACS
 2. Click the tree dots in the upper right
 3. Click custom repositories
