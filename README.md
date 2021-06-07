@@ -1,7 +1,7 @@
 # Transparent Dark Gray
 
 ## A transparent dark gray theme for Home Assistant 
-> This is my first ever custom theme for Home Assistant and my first ever GitHub/HACS repository.<br /> 
+> This is my first ever custom theme for Home Assistant.<br /> 
 Thanks to: https://github.com/JOHLC/transparentblue for his dark blue theme, where this theme is based on.
 
 ## General information

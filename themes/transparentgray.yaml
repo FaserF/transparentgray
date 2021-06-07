@@ -23,7 +23,7 @@ transparentgray-LAB:
   background-color-less-transparent: 'rgba(24,24,24,0.5)'
   background-color-more-transparent: 'rgba(24,24,24,0.3)' 
   background-card-color: 'var(--main-color)'
-  background-editor-color: 'rgba(25,25,25, 1)'                                #Dark gray no tranparent
+  background-editor-color: 'rgba(25,25,25,1.0)'                               #Dark gray no tranparent
   border-color: 'transparent'
   icon-color: 'rgb(254 254 254)'
   state-icon-color: '#00aeff'   ##00ff4c  #00aeff                             #Icon color at least on Entity (not entities) cards
@@ -53,8 +53,8 @@ transparentgray-LAB:
   sidebar-icon-color: 'var(--icon-color)'                                     #Side menu icon color
   sidebar-selected-icon-color: 'white'                                        #Currently selected sidebar item icon color
   sidebar-selected-text-color: 'var(--text-color)'                            #Currently selected sidebar item text color
-  sidebar-background-color: 'var(--background-color-more-transparent)'        #Background color of side menu, also used as a header color in HACS
-  app-drawer-scrim-background: 'rgba(0, 0, 0, .85)'                           #The shade color to the right of the flyout menu (dims the background)
+  sidebar-background-color: 'rgba(55,55,55)'                                  #Background color of side menu, also used as a header color in HACS
+  app-drawer-scrim-background: 'rgba(0,0,0,0.85)'                             #The shade color to the right of the flyout menu (dims the background)
   
   #Notifications area
   app-drawer-content-container_-_background-color: 'var(--dark-gray)'
