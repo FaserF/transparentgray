@@ -11,8 +11,8 @@ transparentgray-LAB:
 # Color variables                                                               #
 #################################################################################
   main-color: 'rgba(55,55,55,0.75)'                                           #Main color
-  main-color-2: 'rgba(20,20,20,0.9)'                                          #Dark gray for backgrounds of certain elements
-  main-color-3: 'rgba(0,0,0,1.0)'                                             #Black
+  main-color-2: 'rgba(20,20,20,0.7)'                                          #Dark gray for backgrounds of certain elements
+  main-color-3: 'rgba(0,0,0,0.4)'                                             #Black
   active-color: 'yellow'                                                      #Color of active/on entities in cards
   text-color: 'white'                                                         #Duh
   text-dark-color: '#A0A0A0'
