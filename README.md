@@ -1,46 +1,34 @@
-# Transparent Dark Gray
+# Transparent Dark Gray Theme 🎨
 
-## A transparent dark gray theme for Home Assistant
-> This is my first ever custom theme for Home Assistant.<br />
-Thanks to: https://github.com/JOHLC/transparentblue for his dark blue theme, where this theme is based on.
+A transparent dark gray theme for **Home Assistant**.
 
-## General information
-I am using the frontend extion [animated backgrounds](https://github.com/Villhellm/lovelace-animated-background). Thats the reason that I have removed a background from this theme. <br />
-If you want one, please have a look below under Changing the background image. Maybe I will release a darkgray version with a background implemented.
-As I am using this for my personal interest. Be aware, that I will only be giving limited support and wont accept all pull requests.
+> Based on the excellent [transparentblue](https://github.com/JOHLC/transparentblue) theme.
 
-### Screenshots
-**transparentgray.yaml**<br />
-<img src="images/transparentgray.png" alt="transparentgray.yaml" width="1000">
+## Features ✨
 
-## Button Colors
-### transparentgray-other.yaml
-If you prefer the Gray and Blue buttons (second screenshots below), change the code as below:<br />
-  #Switches<br />
-  switch-checked-button-color: ''                                           #Switch On<br />
-  switch-unchecked-button-color: 'var(--slightly-darker-text)'              #Switch Off<br />
-  switch-checked-track-color: '#009FFF'                                     #Switch background when On<br />
-  switch-unchecked-track-color: '#767682'                                   #Switch background when Off<br /> <br />
+- **Transparent UI**: See your background through the cards.
+- **Custom Buttons**: Styled toggles and switches.
+- **Animated Backgrounds**: Designed to work with [Lovelace Animated Background](https://github.com/Villhellm/lovelace-animated-background).
 
-## HACS installation - recommended<br />
-Works only for transparentgray.yaml<br />
-1. Open HACS
-2. Click the tree dots in the upper right
-3. Click custom repositories
-4. Add the URL of this github repo.
-5. Go to frontend
-6. Search for transparent dark gray
-7. Click Install
-You should now be able to select "transparentgray-LAB" in Home Assistant. Maybe a restart of HA is required.<br />
-"LAB" stands for "Lovelace Animated Background".
+## Screenshots 📸
 
-### Manual Installation - not recommended<br />
-1. Download the transparentgray*.yaml file from this github repo. - Only one, not all!
-2. Upload the downloaded file to your "themes" directory
-3. Add the resource reference to your lovelace config<br />
+![Screen](images/transparentgray.png)
 
-You should now be able to select this theme in Home Assistant
-<br />
+## Installation 🛠️
+
+### 1. Using HACS (Recommended)
+
+1.  Open HACS.
+2.  Add Custom Repository: `https://github.com/FaserF/transparentgray` (Category: Theme).
+3.  Click **Download**.
+4.  Select `transparentgray-LAB` in your Profile settings.
+
+### 2. Manual Installation
+
+1.  Download `transparentgray.yaml` (or the specific variation you want).
+2.  Place it in your `themes/` directory.
+3.  Add the resource reference to `configuration.yaml`.
+4.  Restart Home Assistant and select the theme.
 
 #### Changing the background image<br />
 Have a look [here](https://github.com/JOHLC/transparentblue#changing-the-background-image) <br />
