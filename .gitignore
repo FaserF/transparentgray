@@ -1,0 +1,47 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+*.zip
+
+# Environments
+.venv/
+env/
+venv/
+ENV/
+
+# Node / Web
+node_modules/
+.eslintcache
+
+# Unit test / coverage / type-check caches
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+.hypothesis/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.cache/
+
+# Secrets & local env files
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+
+# Logs & OS artifacts
+*.log
+.DS_Store
+Thumbs.db
+*.tmp
